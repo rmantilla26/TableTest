@@ -35,4 +35,13 @@
     }
 }
 
+-(void)gotoGame{
+    
+}
+
+-(void)gotoSettings{
+    
+}
+
+
 @end

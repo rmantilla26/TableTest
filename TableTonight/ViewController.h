@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+
+
+-(IBAction)gotoSettings;
+-(IBAction)gotoGame;
+
+
+
 @end

@@ -43,6 +43,9 @@
 
 - (IBAction)gotoMainMenu{
     
+    [self dismissModalViewControllerAnimated:YES];
+    
+    
 }
 
 
