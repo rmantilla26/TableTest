@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429FA5C015541C750076B876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429FA5BF15541C750076B876 /* UIKit.framework */; };
+		429FA5C215541C750076B876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429FA5C115541C750076B876 /* Foundation.framework */; };
+		429FA5C415541C750076B876 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429FA5C315541C750076B876 /* CoreGraphics.framework */; };
+		429FA5CA15541C750076B876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 429FA5C815541C750076B876 /* InfoPlist.strings */; };
+		429FA5CC15541C750076B876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 429FA5CB15541C750076B876 /* main.m */; };
+		429FA5D015541C750076B876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 429FA5CF15541C750076B876 /* AppDelegate.m */; };
+		429FA5D315541C750076B876 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429FA5D115541C750076B876 /* MainStoryboard_iPhone.storyboard */; };
+		429FA5D615541C750076B876 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429FA5D415541C750076B876 /* MainStoryboard_iPad.storyboard */; };
+		429FA5D915541C750076B876 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429FA5D815541C750076B876 /* ViewController.m */; };
+		429FA5E115541C750076B876 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429FA5E015541C750076B876 /* SenTestingKit.framework */; };
+		429FA5E215541C750076B876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429FA5BF15541C750076B876 /* UIKit.framework */; };
+		429FA5E315541C750076B876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429FA5C115541C750076B876 /* Foundation.framework */; };
+		429FA5EB15541C750076B876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 429FA5E915541C750076B876 /* InfoPlist.strings */; };
+		429FA5EE15541C750076B876 /* TableTonightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 429FA5ED15541C750076B876 /* TableTonightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		429FA5E415541C750076B876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429FA5B215541C750076B876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429FA5BA15541C750076B876;
+			remoteInfo = TableTonight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		429FA5BB15541C750076B876 /* TableTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		429FA5BF15541C750076B876 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		429FA5C115541C750076B876 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		429FA5C315541C750076B876 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		429FA5C715541C750076B876 /* TableTonight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTonight-Info.plist"; sourceTree = "<group>"; };
+		429FA5C915541C750076B876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		429FA5CB15541C750076B876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		429FA5CD15541C750076B876 /* TableTonight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableTonight-Prefix.pch"; sourceTree = "<group>"; };
+		429FA5CE15541C750076B876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		429FA5CF15541C750076B876 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		429FA5D215541C750076B876 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		429FA5D515541C750076B876 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		429FA5D715541C750076B876 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		429FA5D815541C750076B876 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		429FA5DF15541C750076B876 /* TableTonightTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTonightTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429FA5E015541C750076B876 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		429FA5E815541C750076B876 /* TableTonightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTonightTests-Info.plist"; sourceTree = "<group>"; };
+		429FA5EA15541C750076B876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		429FA5EC15541C750076B876 /* TableTonightTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableTonightTests.h; sourceTree = "<group>"; };
+		429FA5ED15541C750076B876 /* TableTonightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTonightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429FA5B815541C750076B876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FA5C015541C750076B876 /* UIKit.framework in Frameworks */,
+				429FA5C215541C750076B876 /* Foundation.framework in Frameworks */,
+				429FA5C415541C750076B876 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429FA5DB15541C750076B876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FA5E115541C750076B876 /* SenTestingKit.framework in Frameworks */,
+				429FA5E215541C750076B876 /* UIKit.framework in Frameworks */,
+				429FA5E315541C750076B876 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429FA5B015541C750076B876 = {
+			isa = PBXGroup;
+			children = (
+				429FA5C515541C750076B876 /* TableTonight */,
+				429FA5E615541C750076B876 /* TableTonightTests */,
+				429FA5BE15541C750076B876 /* Frameworks */,
+				429FA5BC15541C750076B876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		429FA5BC15541C750076B876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429FA5BB15541C750076B876 /* TableTonight.app */,
+				429FA5DF15541C750076B876 /* TableTonightTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429FA5BE15541C750076B876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429FA5BF15541C750076B876 /* UIKit.framework */,
+				429FA5C115541C750076B876 /* Foundation.framework */,
+				429FA5C315541C750076B876 /* CoreGraphics.framework */,
+				429FA5E015541C750076B876 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		429FA5C515541C750076B876 /* TableTonight */ = {
+			isa = PBXGroup;
+			children = (
+				429FA5CE15541C750076B876 /* AppDelegate.h */,
+				429FA5CF15541C750076B876 /* AppDelegate.m */,
+				429FA5D115541C750076B876 /* MainStoryboard_iPhone.storyboard */,
+				429FA5D415541C750076B876 /* MainStoryboard_iPad.storyboard */,
+				429FA5D715541C750076B876 /* ViewController.h */,
+				429FA5D815541C750076B876 /* ViewController.m */,
+				429FA5C615541C750076B876 /* Supporting Files */,
+			);
+			path = TableTonight;
+			sourceTree = "<group>";
+		};
+		429FA5C615541C750076B876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				429FA5C715541C750076B876 /* TableTonight-Info.plist */,
+				429FA5C815541C750076B876 /* InfoPlist.strings */,
+				429FA5CB15541C750076B876 /* main.m */,
+				429FA5CD15541C750076B876 /* TableTonight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		429FA5E615541C750076B876 /* TableTonightTests */ = {
+			isa = PBXGroup;
+			children = (
+				429FA5EC15541C750076B876 /* TableTonightTests.h */,
+				429FA5ED15541C750076B876 /* TableTonightTests.m */,
+				429FA5E715541C750076B876 /* Supporting Files */,
+			);
+			path = TableTonightTests;
+			sourceTree = "<group>";
+		};
+		429FA5E715541C750076B876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				429FA5E815541C750076B876 /* TableTonightTests-Info.plist */,
+				429FA5E915541C750076B876 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429FA5BA15541C750076B876 /* TableTonight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429FA5F115541C750076B876 /* Build configuration list for PBXNativeTarget "TableTonight" */;
+			buildPhases = (
+				429FA5B715541C750076B876 /* Sources */,
+				429FA5B815541C750076B876 /* Frameworks */,
+				429FA5B915541C750076B876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableTonight;
+			productName = TableTonight;
+			productReference = 429FA5BB15541C750076B876 /* TableTonight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		429FA5DE15541C750076B876 /* TableTonightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429FA5F415541C750076B876 /* Build configuration list for PBXNativeTarget "TableTonightTests" */;
+			buildPhases = (
+				429FA5DA15541C750076B876 /* Sources */,
+				429FA5DB15541C750076B876 /* Frameworks */,
+				429FA5DC15541C750076B876 /* Resources */,
+				429FA5DD15541C750076B876 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429FA5E515541C750076B876 /* PBXTargetDependency */,
+			);
+			name = TableTonightTests;
+			productName = TableTonightTests;
+			productReference = 429FA5DF15541C750076B876 /* TableTonightTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429FA5B215541C750076B876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Koombea;
+			};
+			buildConfigurationList = 429FA5B515541C750076B876 /* Build configuration list for PBXProject "TableTonight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 429FA5B015541C750076B876;
+			productRefGroup = 429FA5BC15541C750076B876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429FA5BA15541C750076B876 /* TableTonight */,
+				429FA5DE15541C750076B876 /* TableTonightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429FA5B915541C750076B876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FA5CA15541C750076B876 /* InfoPlist.strings in Resources */,
+				429FA5D315541C750076B876 /* MainStoryboard_iPhone.storyboard in Resources */,
+				429FA5D615541C750076B876 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429FA5DC15541C750076B876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FA5EB15541C750076B876 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		429FA5DD15541C750076B876 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		429FA5B715541C750076B876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FA5CC15541C750076B876 /* main.m in Sources */,
+				429FA5D015541C750076B876 /* AppDelegate.m in Sources */,
+				429FA5D915541C750076B876 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429FA5DA15541C750076B876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429FA5EE15541C750076B876 /* TableTonightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		429FA5E515541C750076B876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429FA5BA15541C750076B876 /* TableTonight */;
+			targetProxy = 429FA5E415541C750076B876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		429FA5C815541C750076B876 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429FA5C915541C750076B876 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		429FA5D115541C750076B876 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429FA5D215541C750076B876 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		429FA5D415541C750076B876 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429FA5D515541C750076B876 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		429FA5E915541C750076B876 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				429FA5EA15541C750076B876 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		429FA5EF15541C750076B876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		429FA5F015541C750076B876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429FA5F215541C750076B876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableTonight/TableTonight-Prefix.pch";
+				INFOPLIST_FILE = "TableTonight/TableTonight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		429FA5F315541C750076B876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableTonight/TableTonight-Prefix.pch";
+				INFOPLIST_FILE = "TableTonight/TableTonight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		429FA5F515541C750076B876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableTonight.app/TableTonight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableTonight/TableTonight-Prefix.pch";
+				INFOPLIST_FILE = "TableTonightTests/TableTonightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		429FA5F615541C750076B876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableTonight.app/TableTonight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableTonight/TableTonight-Prefix.pch";
+				INFOPLIST_FILE = "TableTonightTests/TableTonightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		429FA5B515541C750076B876 /* Build configuration list for PBXProject "TableTonight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429FA5EF15541C750076B876 /* Debug */,
+				429FA5F015541C750076B876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429FA5F115541C750076B876 /* Build configuration list for PBXNativeTarget "TableTonight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429FA5F215541C750076B876 /* Debug */,
+				429FA5F315541C750076B876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		429FA5F415541C750076B876 /* Build configuration list for PBXNativeTarget "TableTonightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429FA5F515541C750076B876 /* Debug */,
+				429FA5F615541C750076B876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429FA5B215541C750076B876 /* Project object */;
+}
